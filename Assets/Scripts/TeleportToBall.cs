@@ -3,12 +3,14 @@ using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
 using UnityEngine.InputSystem;
+using UnityEngine.XR;
 public class TeleportToBall : MonoBehaviour
 {
     [SerializeField] Transform _ball;
     [SerializeField] Transform _headset;
     [SerializeField] Transform _rightHand;
     [SerializeField] float slowDown;
+
 
     Rigidbody _rb;
     [SerializeField] InputActionProperty grabActionRight;
